@@ -1,22 +1,18 @@
 # CodSoft Task 2 - Tic-Tac-Toe AI
 
-## Project Overview
-This is a Python-based Tic-Tac-Toe game where a human plays against an AI opponent.  
-The AI uses the Minimax algorithm, making it unbeatable.
+## Overview
+A polished Python GUI game where a human plays Tic-Tac-Toe against an unbeatable AI.
 
 ## Features
 - GUI-based gameplay
-- Unbeatable Minimax AI
+- Minimax AI with Alpha-Beta pruning
+- Play Again button
+- Reset Scores button
+- Winning combination highlight
 - Score tracking
-- New game and reset score options
-- Clean and simple interface
-- Game-over popups
-
-## Tech Stack
-- Python
-- Tkinter
-- Minimax Algorithm
+- Help popup explaining the AI
+- Clean modern interface
 
 ## How to Run
 ```bash
-python tictactoe_ai.py
+python TicTacToe.py
